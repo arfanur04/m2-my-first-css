@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Mixed Selectors</title>
+		<style>
+			* {
+				margin: 0;
+			}
+			/* p {
+				color: red;
+			} */
+			#fifth,
+			li {
+				font-size: 26px;
+			}
+			.holud,
+			.yellow {
+				background-color: yellow;
+			}
+			.bold {
+				font-weight: 800;
+			}
+			input[type="password"] {
+				/* font-size: 30px; */
+				color: red;
+			}
+			.css {
+				color: aqua;
+			}
+			.blog {
+				background-color: aquamarine;
+			}
+		</style>
+	</head>
+	<body>
+		<h3>Explore Mixed selectors</h3>
+		<p>My first <span class="css">line css</span></p>
+		<p>My second line css</p>
+		<p class="yellow">My third line css</p>
+		<p class="yellow bold">My fourth line css</p>
+		<p
+			class="holud"
+			id="fifth"
+		>
+			My fifth line css
+		</p>
+		<p class="bold">My sixth line css</p>
+		<p>My seventh line css</p>
+		<ol>
+			<li>Element selectors</li>
+			<li>ID selectors</li>
+			<li class="bold holud">Class selectors</li>
+			<li>universal</li>
+		</ol>
+		<div class="blog">
+			<h3>My Blog</h3>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, totam.
+				Dolore accusamus totam dignissimos voluptate voluptatibus natus
+				provident ducimus illum.
+			</p>
+		</div>
+		<form action="">
+			<input type="text" />
+			<input
+				type="password"
+				name=""
+				id=""
+			/>
+		</form>
+	</body>
+</html>
