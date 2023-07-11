@@ -6,37 +6,19 @@
 			name="viewport"
 			content="width=device-width, initial-scale=1.0"
 		/>
-		<title>My Developer Blogs</title>
+		<title>External CSS</title>
 		<link
 			rel="stylesheet"
 			href="sytles/7-blog.css"
 		/>
-		<style>
-			* {
-				margin: 0;
-			}
-			.blog {
-				background-color: aquamarine;
-				border: 10px solid tomato;
-				border-bottom: none;
-				/* border-bottom: 20px solid salmon; */
-				/* border-radius: 10px; */
-				/* margin-bottom: 10px; */
-				/* margin: 10px 50px;    top-bottom left-right */
-				/* margin: 10px 50px 100px; T RL B */
-				/* margin: 10px 30px 60px 120px; T R B L */
-				text-align: justify;
-				padding: 20px;
-			}
-		</style>
 	</head>
 	<body>
 		<div class="blog">
 			<h3>My first blog</h3>
 			<p>
 				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, minima
-				culpa natus debitis labore quia voluptas magnam provident voluptate
-				fugiat.
+				culpa natus debitis <span class="incident"> labore quia</span> voluptas
+				magnam provident voluptate fugiat.
 			</p>
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate
@@ -44,7 +26,7 @@
 				laudantium?
 			</p>
 		</div>
-		<div class="blog">
+		<div class="blog second">
 			<h3>My second blog</h3>
 			<p>
 				Animi dolore cupiditate commodi autem! Amet illo alias corrupti minus
@@ -61,7 +43,7 @@
 		CSS Box Model
 		<ol>
 			<li>content</li>
-			<li>border</li>
+			<li style="color: red; text-decoration: underline">border</li>
 			<li>margin</li>
 			<li>padding</li>
 			<li>width/height</li>
